@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import cds from './cds.js';
-import CDList from './components/CDList'
+import Search from './components/Search';
 
 function App() {
   console.log(cds)
   return (
     <div className="App">
-      <CDList cds={cds} />
+      <Search></Search>
     </div>
   );
 }
